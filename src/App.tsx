@@ -8,7 +8,7 @@ import { DashboardView } from './views/DashboardView';
 import { LiveMonitoringView } from './views/LiveMonitoringView';
 import { NetworkMapView } from './views/NetworkMapView';
 import { AlertsView } from './views/AlertsView';
-import { IncidentsView } from './views/IncidentsView';
+
 import { DetectionRulesView } from './views/DetectionRulesView';
 import { MetaLearningOpsView } from './views/MetaLearningOpsView';
 import { AiSecurityAnalystView } from './views/AiSecurityAnalystView';
@@ -54,7 +54,6 @@ const BlueTeamLayout: React.FC = () => {
             <Route path="/monitoring" element={<LiveMonitoringView />} />
             <Route path="/network" element={<NetworkMapView />} />
             <Route path="/alerts" element={<AlertsView />} />
-            <Route path="/incidents" element={<IncidentsView />} />
             <Route path="/rules" element={<DetectionRulesView />} />
             <Route path="/sensors" element={<ThreatSensorView />} />
             <Route path="/meta-learning" element={<MetaLearningOpsView />} />
