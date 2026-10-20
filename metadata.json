@@ -1,0 +1,6 @@
+{
+  "name": "AEGIS ML IDS",
+  "description": "Adaptive Meta-Learning Intrusion Detection & Response Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: aegis-ml-ids
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://karthickkumaran06_db_user:saF6HSs8QZVExuH6@aegis.7tscmnk.mongodb.net/aegis_ids?retryWrites=true&w=majority
+      - key: DB_NAME
+        value: aegis_ids
+      - key: PORT
+        value: 10000

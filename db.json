@@ -1,0 +1,5084 @@
+{
+  "users": [
+    {
+      "id": "u-2",
+      "email": "analyst@aegis.io",
+      "passwordHash": "84a6ed197836ce9fe88ed4cd036a048c7b01ce048ba35d8f9b2f7cf6bbc2970a",
+      "role": "Security Analyst",
+      "name": "David Lightman (SOC Analyst)"
+    },
+    {
+      "id": "u-1",
+      "email": "admin@aegis.io",
+      "passwordHash": "3eb3fe66b31e3b4d10fa70b5cad49c7112294af6ae4e476a1c405155d45aa121",
+      "role": "Admin",
+      "name": "Sarah Connor (Security Director)"
+    }
+  ],
+  "packets": [
+    {
+      "id": "pkt-live-1792477751435-472",
+      "timestamp": "2026-10-20T06:29:11.435Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 53659,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477691432-529",
+      "timestamp": "2026-10-20T06:28:11.432Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63564,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477631437-386",
+      "timestamp": "2026-10-20T06:27:11.437Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60391,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477600438-346",
+      "timestamp": "2026-10-20T06:26:40.438Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59032,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477511425-81",
+      "timestamp": "2026-10-20T06:25:11.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64608,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477451434-25",
+      "timestamp": "2026-10-20T06:24:11.434Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59249,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477391425-877",
+      "timestamp": "2026-10-20T06:23:11.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 54497,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477331424-443",
+      "timestamp": "2026-10-20T06:22:11.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 54733,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477271423-836",
+      "timestamp": "2026-10-20T06:21:11.423Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 62938,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477211430-965",
+      "timestamp": "2026-10-20T06:20:11.430Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60264,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477151422-38",
+      "timestamp": "2026-10-20T06:19:11.422Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49378,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477091433-432",
+      "timestamp": "2026-10-20T06:18:11.433Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 50486,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477058424-241",
+      "timestamp": "2026-10-20T06:17:38.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477053421-771",
+      "timestamp": "2026-10-20T06:17:33.421Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477048429-916",
+      "timestamp": "2026-10-20T06:17:28.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477043429-170",
+      "timestamp": "2026-10-20T06:17:23.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477038433-653",
+      "timestamp": "2026-10-20T06:17:18.433Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477033424-539",
+      "timestamp": "2026-10-20T06:17:13.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477028434-618",
+      "timestamp": "2026-10-20T06:17:08.434Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477023426-87",
+      "timestamp": "2026-10-20T06:17:03.426Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477018424-274",
+      "timestamp": "2026-10-20T06:16:58.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477013426-886",
+      "timestamp": "2026-10-20T06:16:53.426Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477008427-656",
+      "timestamp": "2026-10-20T06:16:48.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792477003430-888",
+      "timestamp": "2026-10-20T06:16:43.430Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476997857-199",
+      "timestamp": "2026-10-20T06:16:37.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476992856-664",
+      "timestamp": "2026-10-20T06:16:32.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476988362-815",
+      "timestamp": "2026-10-20T06:16:28.362Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476982860-850",
+      "timestamp": "2026-10-20T06:16:22.860Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476978368-516",
+      "timestamp": "2026-10-20T06:16:18.368Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56654,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476971427-157",
+      "timestamp": "2026-10-20T06:16:11.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 51054,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476911436-910",
+      "timestamp": "2026-10-20T06:15:11.436Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 50641,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476851429-238",
+      "timestamp": "2026-10-20T06:14:11.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64223,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476828830-311",
+      "timestamp": "2026-10-20T06:13:48.830Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476828814-878",
+      "timestamp": "2026-10-20T06:13:48.814Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476828811-264",
+      "timestamp": "2026-10-20T06:13:48.811Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476828786-389",
+      "timestamp": "2026-10-20T06:13:48.786Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /monitoring HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826244-105",
+      "timestamp": "2026-10-20T06:13:46.244Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826232-265",
+      "timestamp": "2026-10-20T06:13:46.232Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826231-447",
+      "timestamp": "2026-10-20T06:13:46.231Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 188,
+      "payload": "GET /api/system/logs HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826229-292",
+      "timestamp": "2026-10-20T06:13:46.229Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826224-275",
+      "timestamp": "2026-10-20T06:13:46.224Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 190,
+      "payload": "GET /api/system/health HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476826205-879",
+      "timestamp": "2026-10-20T06:13:46.205Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 179,
+      "payload": "GET /system HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823652-316",
+      "timestamp": "2026-10-20T06:13:43.652Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823649-125",
+      "timestamp": "2026-10-20T06:13:43.648Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823642-307",
+      "timestamp": "2026-10-20T06:13:43.642Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823636-207",
+      "timestamp": "2026-10-20T06:13:43.636Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 195,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823616-855",
+      "timestamp": "2026-10-20T06:13:43.616Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58236,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /redteam HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476823613-600",
+      "timestamp": "2026-10-20T06:13:43.613Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476820970-54",
+      "timestamp": "2026-10-20T06:13:40.970Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 189,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476820936-408",
+      "timestamp": "2026-10-20T06:13:40.936Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /sensors HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817965-534",
+      "timestamp": "2026-10-20T06:13:37.965Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817956-90",
+      "timestamp": "2026-10-20T06:13:37.956Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817952-396",
+      "timestamp": "2026-10-20T06:13:37.952Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 193,
+      "payload": "GET /api/dashboard/charts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817948-868",
+      "timestamp": "2026-10-20T06:13:37.948Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60795,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817945-245",
+      "timestamp": "2026-10-20T06:13:37.945Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476817879-173",
+      "timestamp": "2026-10-20T06:13:37.879Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 241,
+      "payload": "POST /api/auth/login HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\r\n\r\n{\"email\":\"admin@aegis.io\",\"password\":\"Admin123!\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476815753-150",
+      "timestamp": "2026-10-20T06:13:35.753Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 192,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476815748-48",
+      "timestamp": "2026-10-20T06:13:35.748Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476815743-681",
+      "timestamp": "2026-10-20T06:13:35.743Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 194,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476815622-370",
+      "timestamp": "2026-10-20T06:13:35.622Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63806,
+      "destPort": 3000,
+      "size": 173,
+      "payload": "GET / HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476791432-441",
+      "timestamp": "2026-10-20T06:13:11.432Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 60578,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476731431-276",
+      "timestamp": "2026-10-20T06:12:11.431Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59064,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476671423-453",
+      "timestamp": "2026-10-20T06:11:11.423Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64653,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476611425-148",
+      "timestamp": "2026-10-20T06:10:11.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 52682,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476551424-813",
+      "timestamp": "2026-10-20T06:09:11.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 53688,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476491425-48",
+      "timestamp": "2026-10-20T06:08:11.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 57952,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476431429-12",
+      "timestamp": "2026-10-20T06:07:11.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59702,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476393424-166",
+      "timestamp": "2026-10-20T06:06:33.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476388426-302",
+      "timestamp": "2026-10-20T06:06:28.426Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476383431-697",
+      "timestamp": "2026-10-20T06:06:23.431Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476378435-507",
+      "timestamp": "2026-10-20T06:06:18.435Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476373430-343",
+      "timestamp": "2026-10-20T06:06:13.430Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476368427-22",
+      "timestamp": "2026-10-20T06:06:08.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476363435-757",
+      "timestamp": "2026-10-20T06:06:03.435Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476358425-795",
+      "timestamp": "2026-10-20T06:05:58.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476353429-485",
+      "timestamp": "2026-10-20T06:05:53.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64421,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476348424-335",
+      "timestamp": "2026-10-20T06:05:48.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476343435-941",
+      "timestamp": "2026-10-20T06:05:43.435Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476338427-313",
+      "timestamp": "2026-10-20T06:05:38.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476332859-16",
+      "timestamp": "2026-10-20T06:05:32.859Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476327856-265",
+      "timestamp": "2026-10-20T06:05:27.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476322860-515",
+      "timestamp": "2026-10-20T06:05:22.860Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476317859-637",
+      "timestamp": "2026-10-20T06:05:17.859Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476315553-863",
+      "timestamp": "2026-10-20T06:05:15.553Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476311429-172",
+      "timestamp": "2026-10-20T06:05:11.429Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56940,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476251427-577",
+      "timestamp": "2026-10-20T06:04:11.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56834,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476191434-145",
+      "timestamp": "2026-10-20T06:03:11.434Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 51960,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476131432-736",
+      "timestamp": "2026-10-20T06:02:11.432Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56693,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476088434-299",
+      "timestamp": "2026-10-20T06:01:28.434Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476083426-862",
+      "timestamp": "2026-10-20T06:01:23.426Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476078424-136",
+      "timestamp": "2026-10-20T06:01:18.424Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476073437-320",
+      "timestamp": "2026-10-20T06:01:13.437Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476068427-20",
+      "timestamp": "2026-10-20T06:01:08.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476063425-23",
+      "timestamp": "2026-10-20T06:01:03.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476058423-766",
+      "timestamp": "2026-10-20T06:00:58.423Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476053422-511",
+      "timestamp": "2026-10-20T06:00:53.422Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476048428-742",
+      "timestamp": "2026-10-20T06:00:48.428Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476043428-984",
+      "timestamp": "2026-10-20T06:00:43.428Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476038425-129",
+      "timestamp": "2026-10-20T06:00:38.425Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476032861-356",
+      "timestamp": "2026-10-20T06:00:32.861Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476027856-202",
+      "timestamp": "2026-10-20T06:00:27.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476022863-525",
+      "timestamp": "2026-10-20T06:00:22.863Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476017857-447",
+      "timestamp": "2026-10-20T06:00:17.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476012859-390",
+      "timestamp": "2026-10-20T06:00:12.859Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476007857-979",
+      "timestamp": "2026-10-20T06:00:07.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792476002857-538",
+      "timestamp": "2026-10-20T06:00:02.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475998433-781",
+      "timestamp": "2026-10-20T05:59:58.433Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475993436-622",
+      "timestamp": "2026-10-20T05:59:53.436Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475988434-983",
+      "timestamp": "2026-10-20T05:59:48.434Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475983428-549",
+      "timestamp": "2026-10-20T05:59:43.428Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475978423-398",
+      "timestamp": "2026-10-20T05:59:38.423Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475973430-554",
+      "timestamp": "2026-10-20T05:59:33.430Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475968432-890",
+      "timestamp": "2026-10-20T05:59:28.432Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475963432-10",
+      "timestamp": "2026-10-20T05:59:23.432Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475958427-468",
+      "timestamp": "2026-10-20T05:59:18.427Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475953426-810",
+      "timestamp": "2026-10-20T05:59:13.426Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475947862-742",
+      "timestamp": "2026-10-20T05:59:07.862Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475942856-932",
+      "timestamp": "2026-10-20T05:59:02.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475937857-33",
+      "timestamp": "2026-10-20T05:58:57.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475932859-880",
+      "timestamp": "2026-10-20T05:58:52.859Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475927869-18",
+      "timestamp": "2026-10-20T05:58:47.869Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475922859-50",
+      "timestamp": "2026-10-20T05:58:42.859Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475917856-637",
+      "timestamp": "2026-10-20T05:58:37.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475912857-576",
+      "timestamp": "2026-10-20T05:58:32.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475910711-270",
+      "timestamp": "2026-10-20T05:58:30.711Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-1792475910704-1392",
+      "timestamp": "2026-10-20T05:58:30.704Z",
+      "sourceIp": "10.0.1.55",
+      "destIp": "localhost",
+      "protocol": "TCP",
+      "sourcePort": 34748,
+      "destPort": 3000,
+      "size": 680,
+      "payload": "GET /items?id=' UNION SELECT username,passwordHash FROM users--",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 98,
+        "adapted": false,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475910703-542",
+      "timestamp": "2026-10-20T05:58:30.703Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 375,
+      "payload": "POST /api/hacker/attack HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"attackType\":\"sql_injection\",\"targetIp\":\"localhost\",\"targetPort\":3000,\"payload\":\"GET /items?id=' UNION SELECT username,passwordHash FROM users--\",\"sourceIp\":\"10.0.1.55\",\"profileId\":\"insider\"}",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 98,
+        "adapted": true,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475907861-579",
+      "timestamp": "2026-10-20T05:58:27.861Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475905110-522",
+      "timestamp": "2026-10-20T05:58:25.110Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-1792475905103-98",
+      "timestamp": "2026-10-20T05:58:25.103Z",
+      "sourceIp": "185.22.174.15",
+      "destIp": "localhost",
+      "protocol": "TCP",
+      "sourcePort": 24386,
+      "destPort": 3000,
+      "size": 1180,
+      "payload": "GET /items?id=' UNION SELECT username,passwordHash FROM users--",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 95,
+        "adapted": false,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475905102-119",
+      "timestamp": "2026-10-20T05:58:25.102Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 375,
+      "payload": "POST /api/hacker/attack HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"attackType\":\"sql_injection\",\"targetIp\":\"localhost\",\"targetPort\":3000,\"payload\":\"GET /items?id=' UNION SELECT username,passwordHash FROM users--\",\"sourceIp\":\"185.22.174.15\",\"profileId\":\"apt\"}",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 98,
+        "adapted": true,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475902856-38",
+      "timestamp": "2026-10-20T05:58:22.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475900744-256",
+      "timestamp": "2026-10-20T05:58:20.744Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-1792475900738-3604",
+      "timestamp": "2026-10-20T05:58:20.738Z",
+      "sourceIp": "185.22.174.15",
+      "destIp": "localhost",
+      "protocol": "TCP",
+      "sourcePort": 4405,
+      "destPort": 3000,
+      "size": 421,
+      "payload": "POST /api/auth/login {\"email\":\"admin@aegis.io\",\"password\":\"dict_pass_5122\"}",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 94,
+        "adapted": false,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475900737-162",
+      "timestamp": "2026-10-20T05:58:20.737Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 393,
+      "payload": "POST /api/hacker/attack HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"attackType\":\"brute_force\",\"targetIp\":\"localhost\",\"targetPort\":3000,\"payload\":\"POST /api/auth/login {\\\"email\\\":\\\"admin@aegis.io\\\",\\\"password\\\":\\\"dict_pass_5122\\\"}\",\"sourceIp\":\"185.22.174.15\",\"profileId\":\"apt\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475898045-519",
+      "timestamp": "2026-10-20T05:58:18.045Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475898039-525",
+      "timestamp": "2026-10-20T05:58:18.039Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 393,
+      "payload": "POST /api/hacker/attack HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"attackType\":\"brute_force\",\"targetIp\":\"localhost\",\"targetPort\":3000,\"payload\":\"POST /api/auth/login {\\\"email\\\":\\\"admin@aegis.io\\\",\\\"password\\\":\\\"dict_pass_7192\\\"}\",\"sourceIp\":\"203.0.113.99\",\"profileId\":\"anon\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-1792475898039-5621",
+      "timestamp": "2026-10-20T05:58:18.039Z",
+      "sourceIp": "203.0.113.99",
+      "destIp": "localhost",
+      "protocol": "TCP",
+      "sourcePort": 33898,
+      "destPort": 3000,
+      "size": 535,
+      "payload": "POST /api/auth/login {\"email\":\"admin@aegis.io\",\"password\":\"dict_pass_7192\"}",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 96,
+        "adapted": false,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475897868-381",
+      "timestamp": "2026-10-20T05:58:17.868Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475892863-989",
+      "timestamp": "2026-10-20T05:58:12.863Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475891886-522",
+      "timestamp": "2026-10-20T05:58:11.886Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-1792475891873-3074",
+      "timestamp": "2026-10-20T05:58:11.873Z",
+      "sourceIp": "::1",
+      "destIp": "localhost",
+      "protocol": "TCP",
+      "sourcePort": 10133,
+      "destPort": 3000,
+      "size": 747,
+      "payload": "POST /api/auth/login {\"email\":\"admin@aegis.io\",\"password\":\"dict_pass_8841\"}",
+      "classification": "SQL Injection",
+      "classicalIds": {
+        "detected": true,
+        "ruleId": "rule-sqli",
+        "confidence": 99
+      },
+      "metaIds": {
+        "detected": true,
+        "confidence": 99,
+        "adapted": false,
+        "label": "SQL Injection"
+      },
+      "severity": "High",
+      "action": "Block"
+    },
+    {
+      "id": "pkt-live-1792475891873-658",
+      "timestamp": "2026-10-20T05:58:11.873Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 391,
+      "payload": "POST /api/hacker/attack HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"attackType\":\"brute_force\",\"targetIp\":\"localhost\",\"targetPort\":3000,\"payload\":\"POST /api/auth/login {\\\"email\\\":\\\"admin@aegis.io\\\",\\\"password\\\":\\\"dict_pass_8841\\\"}\",\"sourceIp\":\"::1\",\"profileId\":\"real_device\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475887864-144",
+      "timestamp": "2026-10-20T05:58:07.864Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475882857-332",
+      "timestamp": "2026-10-20T05:58:02.857Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475877856-452",
+      "timestamp": "2026-10-20T05:57:57.856Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58589,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475873214-101",
+      "timestamp": "2026-10-20T05:57:53.214Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 183,
+      "payload": "GET /api/hacker/client-info HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871729-643",
+      "timestamp": "2026-10-20T05:57:51.729Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58589,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871718-554",
+      "timestamp": "2026-10-20T05:57:51.718Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58589,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871716-408",
+      "timestamp": "2026-10-20T05:57:51.716Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 50736,
+      "destPort": 3000,
+      "size": 181,
+      "payload": "GET /api/dashboard/charts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871712-485",
+      "timestamp": "2026-10-20T05:57:51.712Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 58589,
+      "destPort": 3000,
+      "size": 182,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871711-507",
+      "timestamp": "2026-10-20T05:57:51.711Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475871602-765",
+      "timestamp": "2026-10-20T05:57:51.602Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 49686,
+      "destPort": 3000,
+      "size": 161,
+      "payload": "GET / HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475853851-859",
+      "timestamp": "2026-10-20T05:57:33.851Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 176,
+      "payload": "GET /api/system/logs HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475853838-244",
+      "timestamp": "2026-10-20T05:57:33.838Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 178,
+      "payload": "GET /api/system/health HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475845250-33",
+      "timestamp": "2026-10-20T05:57:25.250Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 175,
+      "payload": "GET /api/ai/history HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475845238-780",
+      "timestamp": "2026-10-20T05:57:25.238Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 237,
+      "payload": "POST /api/ai/analyze HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"refId\":\"pkt-live-1792475843019-934\",\"refType\":\"packet\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475843019-934",
+      "timestamp": "2026-10-20T05:57:23.019Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 175,
+      "payload": "GET /api/ai/history HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475843006-782",
+      "timestamp": "2026-10-20T05:57:23.006Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 236,
+      "payload": "POST /api/ai/analyze HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"refId\":\"pkt-live-1792475836590-15\",\"refType\":\"packet\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475840019-917",
+      "timestamp": "2026-10-20T05:57:20.019Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 175,
+      "payload": "GET /api/ai/history HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475836590-15",
+      "timestamp": "2026-10-20T05:57:16.590Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475836585-254",
+      "timestamp": "2026-10-20T05:57:16.585Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475836577-613",
+      "timestamp": "2026-10-20T05:57:16.577Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/models HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475836576-37",
+      "timestamp": "2026-10-20T05:57:16.576Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59504,
+      "destPort": 3000,
+      "size": 182,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475836563-65",
+      "timestamp": "2026-10-20T05:57:16.563Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 265,
+      "payload": "POST /api/models/adapt HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"threatClass\":\"Zero-Day Alpha\",\"supportShots\":5,\"lr\":0.0025,\"adaptationSteps\":100}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475830615-615",
+      "timestamp": "2026-10-20T05:57:10.615Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/models HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475825541-855",
+      "timestamp": "2026-10-20T05:57:05.541Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 177,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475819541-121",
+      "timestamp": "2026-10-20T05:56:59.541Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 177,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475813542-35",
+      "timestamp": "2026-10-20T05:56:53.542Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 177,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475807543-482",
+      "timestamp": "2026-10-20T05:56:47.543Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 177,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475801541-905",
+      "timestamp": "2026-10-20T05:56:41.541Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59553,
+      "destPort": 3000,
+      "size": 177,
+      "payload": "GET /api/sensors/scan HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475800461-958",
+      "timestamp": "2026-10-20T05:56:40.461Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 170,
+      "payload": "GET /api/rules HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475800045-462",
+      "timestamp": "2026-10-20T05:56:40.045Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59553,
+      "destPort": 3000,
+      "size": 174,
+      "payload": "GET /api/incidents HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475798041-496",
+      "timestamp": "2026-10-20T05:56:38.041Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59553,
+      "destPort": 3000,
+      "size": 178,
+      "payload": "GET /api/system/health HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793281-569",
+      "timestamp": "2026-10-20T05:56:33.281Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793275-293",
+      "timestamp": "2026-10-20T05:56:33.275Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793263-755",
+      "timestamp": "2026-10-20T05:56:33.263Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59553,
+      "destPort": 3000,
+      "size": 181,
+      "payload": "GET /api/dashboard/charts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793255-684",
+      "timestamp": "2026-10-20T05:56:33.255Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 59553,
+      "destPort": 3000,
+      "size": 182,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793253-588",
+      "timestamp": "2026-10-20T05:56:33.253Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 56391,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475793192-461",
+      "timestamp": "2026-10-20T05:56:33.192Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63423,
+      "destPort": 3000,
+      "size": 229,
+      "payload": "POST /api/auth/login HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\r\n\r\n{\"email\":\"admin@aegis.io\",\"password\":\"Admin123!\"}",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475789200-486",
+      "timestamp": "2026-10-20T05:56:29.200Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63423,
+      "destPort": 3000,
+      "size": 180,
+      "payload": "GET /api/dashboard/stats HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475789196-931",
+      "timestamp": "2026-10-20T05:56:29.196Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63423,
+      "destPort": 3000,
+      "size": 171,
+      "payload": "GET /api/alerts HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475789190-55",
+      "timestamp": "2026-10-20T05:56:29.190Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63423,
+      "destPort": 3000,
+      "size": 182,
+      "payload": "GET /api/packets?limit=100 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475789100-900",
+      "timestamp": "2026-10-20T05:56:29.100Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 63423,
+      "destPort": 3000,
+      "size": 161,
+      "payload": "GET / HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    },
+    {
+      "id": "pkt-live-1792475546360-11",
+      "timestamp": "2026-10-20T05:52:26.360Z",
+      "sourceIp": "::1",
+      "destIp": "::1",
+      "protocol": "HTTP",
+      "sourcePort": 64114,
+      "destPort": 3000,
+      "size": 150,
+      "payload": "GET /api/database/status HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.9711",
+      "classification": "Benign",
+      "classicalIds": {
+        "detected": false,
+        "ruleId": null,
+        "confidence": 0
+      },
+      "metaIds": {
+        "detected": false,
+        "confidence": 99,
+        "adapted": true,
+        "label": "Benign"
+      },
+      "severity": "Informational",
+      "action": "Log"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-redteam-1792475910704",
+      "attackType": "[Red Team] SQL Injection",
+      "confidence": 99,
+      "destIp": "localhost",
+      "engine": "Dual Engine",
+      "packetId": "pkt-1792475910704-1392",
+      "severity": "High",
+      "sourceIp": "10.0.1.55",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:30.704Z"
+    },
+    {
+      "id": "alert-1792475910704-657",
+      "attackType": "SQL Injection",
+      "confidence": 99,
+      "destIp": "::1",
+      "engine": "Dual Engine",
+      "packetId": "pkt-live-1792475910703-542",
+      "severity": "High",
+      "sourceIp": "::1",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:30.703Z"
+    },
+    {
+      "id": "alert-redteam-1792475905103",
+      "attackType": "[Red Team] SQL Injection",
+      "confidence": 99,
+      "destIp": "localhost",
+      "engine": "Dual Engine",
+      "packetId": "pkt-1792475905103-98",
+      "severity": "High",
+      "sourceIp": "185.22.174.15",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:25.103Z"
+    },
+    {
+      "id": "alert-1792475905103-683",
+      "attackType": "SQL Injection",
+      "confidence": 99,
+      "destIp": "::1",
+      "engine": "Dual Engine",
+      "packetId": "pkt-live-1792475905102-119",
+      "severity": "High",
+      "sourceIp": "::1",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:25.102Z"
+    },
+    {
+      "id": "alert-redteam-1792475900738",
+      "attackType": "[Red Team] SQL Injection",
+      "confidence": 99,
+      "destIp": "localhost",
+      "engine": "Dual Engine",
+      "packetId": "pkt-1792475900738-3604",
+      "severity": "High",
+      "sourceIp": "185.22.174.15",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:20.738Z"
+    },
+    {
+      "id": "alert-redteam-1792475898039",
+      "attackType": "[Red Team] SQL Injection",
+      "confidence": 99,
+      "destIp": "localhost",
+      "engine": "Dual Engine",
+      "packetId": "pkt-1792475898039-5621",
+      "severity": "High",
+      "sourceIp": "203.0.113.99",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:18.039Z"
+    },
+    {
+      "id": "alert-redteam-1792475891873",
+      "attackType": "[Red Team] SQL Injection",
+      "confidence": 99,
+      "destIp": "localhost",
+      "engine": "Dual Engine",
+      "packetId": "pkt-1792475891873-3074",
+      "severity": "High",
+      "sourceIp": "::1",
+      "status": "New",
+      "timestamp": "2026-10-20T05:58:11.873Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-1",
+      "title": "SQLi attack vectors targetting User Authorization Gateways",
+      "description": "A burst of high-severity SQL injection attacks attempting to bypass OAuth validations and fetch internal schemas.",
+      "severity": "High",
+      "status": "Investigating",
+      "assignedTo": "David Lightman (SOC Analyst)",
+      "affectedAssets": [
+        "User Authorization Service"
+      ],
+      "sourceIps": [
+        "198.51.100.22"
+      ],
+      "relatedAlertIds": [
+        "alert-seed-1"
+      ],
+      "createdDate": "2026-10-03T10:15:00Z",
+      "updatedDate": "2026-10-03T11:45:00Z",
+      "timeline": [
+        {
+          "timestamp": "2026-10-03T10:15:00Z",
+          "message": "Incident opened automatically from alert-seed-1",
+          "author": "System Engine"
+        },
+        {
+          "timestamp": "2026-10-03T10:30:00Z",
+          "message": "Acknowledged incident. Launching payload analysis on packet #pkt-seed-1.",
+          "author": "David Lightman (SOC Analyst)"
+        },
+        {
+          "timestamp": "2026-10-03T11:00:00Z",
+          "message": "AI Security Analyst deployed. Confirmed malicious intentions matching classical SQLi pattern. Source IP added to gateway blacklist.",
+          "author": "David Lightman (SOC Analyst)"
+        }
+      ]
+    },
+    {
+      "id": "inc-1792163837005",
+      "title": "Escalated alert: [[Red Team] SQL Injection] from source IP 203.0.113.99",
+      "description": "Threat incident raised via alerts panel escalation of critical alert id:alert-redteam-1792163352217. Forensic deep scan requested on host VM.",
+      "severity": "High",
+      "status": "Open",
+      "affectedAssets": [
+        "10.0.1.15"
+      ],
+      "sourceIps": [
+        "203.0.113.99"
+      ],
+      "relatedAlertIds": [
+        "alert-redteam-1792163352217"
+      ],
+      "createdDate": "2026-10-16T15:17:17.005Z",
+      "updatedDate": "2026-10-16T15:17:17.005Z",
+      "timeline": [
+        {
+          "timestamp": "2026-10-16T15:17:17.005Z",
+          "message": "Incident manually created by analyst."
+        }
+      ]
+    }
+  ],
+  "threats": [
+    {
+      "id": "t-5",
+      "name": "Zero-Day Beta: DNS Tunneling Exfiltration",
+      "category": "Data Exfiltration",
+      "description": "Stealthy chunked data exfiltration using DNS queries containing encoded payloads inside subdomain fields.",
+      "attackTechnique": "T1048.003 - Exfiltration Over Alternative Protocol: DNS",
+      "affectedServices": [
+        "DNS Server Node"
+      ],
+      "indicators": [
+        "Unusually long subdomain strings, repeating base64 query blocks"
+      ],
+      "detectionStatus": "Unprotected",
+      "confidence": 0,
+      "severity": "High",
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "cves": []
+    },
+    {
+      "id": "t-1",
+      "name": "SQL Injection Campaign (SQLi-X)",
+      "category": "Application Attacks",
+      "description": "Targeted injection vectors against SQL backends attempting database credential dumping and structure enumeration.",
+      "attackTechnique": "T1190 - Exploit Public-Facing Application",
+      "affectedServices": [
+        "Nginx Web Gateways",
+        "User Authorization Service",
+        "PostgreSQL DB"
+      ],
+      "indicators": [
+        "' OR 1=1 --",
+        "UNION SELECT username, password",
+        "INFORMATION_SCHEMA.TABLES"
+      ],
+      "detectionStatus": "Dual Protection",
+      "confidence": 99,
+      "severity": "High",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-03",
+      "cves": [
+        "CVE-2026-4011",
+        "CVE-2025-2980"
+      ]
+    },
+    {
+      "id": "t-2",
+      "name": "TCP SYN Flood (SYN-Storm)",
+      "category": "Denial of Service",
+      "description": "Saturating gateway servers with TCP SYN requests from spoofed IPs, exhausting local system session queues.",
+      "attackTechnique": "T1498.001 - Network Denial of Service: Direct Flow Flooding",
+      "affectedServices": [
+        "Gateway Firewalls",
+        "Kubernetes Load Balancer"
+      ],
+      "indicators": [
+        "TCP flags: SYN",
+        "Extreme high packet density from distinct IP pools"
+      ],
+      "detectionStatus": "Classical Rule Active",
+      "confidence": 95,
+      "severity": "Medium",
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-10-02",
+      "cves": []
+    },
+    {
+      "id": "t-4",
+      "name": "Zero-Day Alpha: Custom In-Memory Deserialization",
+      "category": "Zero-Day Exploitation",
+      "description": "Novel, highly targeted Remote Code Execution (RCE) targetting an undocumented custom object deserialization handler.",
+      "attackTechnique": "T1203 - Exploitation for Client Execution",
+      "affectedServices": [
+        "Java Application Server Core"
+      ],
+      "indicators": [
+        "Custom binary string triggers object instantiation bypass"
+      ],
+      "detectionStatus": "Dual Protection",
+      "confidence": 96,
+      "severity": "Critical",
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "cves": []
+    },
+    {
+      "id": "t-3",
+      "name": "Reconnaissance Network Sweep (Scan-Pulse)",
+      "category": "Port Scanning",
+      "description": "Systematic mapping of open ports and OS fingerprints across internal VLANs to identify vulnerable services.",
+      "attackTechnique": "T1046 - Network Service Discovery",
+      "affectedServices": [
+        "All Internal Servers",
+        "Active VLAN Nodes"
+      ],
+      "indicators": [
+        "Sequential ports mapped over small millisecond intervals"
+      ],
+      "detectionStatus": "Classical Rule Active",
+      "confidence": 92,
+      "severity": "Low",
+      "firstSeen": "2026-09-01",
+      "lastSeen": "2026-10-03",
+      "cves": []
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule-portscan",
+      "name": "VLAN Sequential Scan Detect",
+      "description": "Triggers on sequential TCP socket pings across internal IP ranges.",
+      "category": "Reconnaissance Protection",
+      "severity": "Low",
+      "protocol": "TCP",
+      "pattern": "SCAN_PATTERN",
+      "action": "Log",
+      "status": "Active",
+      "createdBy": "admin@aegis.io",
+      "createdDate": "2026-08-25",
+      "matchedCount": 119
+    },
+    {
+      "id": "rule-sqli",
+      "name": "SQL Injection Signature Block",
+      "description": "Matches common patterns of database syntax injection in HTTP payloads.",
+      "category": "Application Protection",
+      "severity": "High",
+      "protocol": "TCP",
+      "pattern": "UNION SELECT|' OR 1=1|INFORMATION_SCHEMA",
+      "action": "Block",
+      "status": "Active",
+      "createdBy": "admin@aegis.io",
+      "createdDate": "2026-08-20",
+      "matchedCount": 157
+    },
+    {
+      "id": "rule-syn",
+      "name": "TCP SYN Packet Overflow Detect",
+      "description": "Triggers when a threshold of unacknowledged SYN flags is crossed.",
+      "category": "Infrastructure Integrity",
+      "severity": "Medium",
+      "protocol": "TCP",
+      "pattern": "SYN_FLAG_SET",
+      "action": "Alert",
+      "status": "Active",
+      "createdBy": "admin@aegis.io",
+      "createdDate": "2026-08-22",
+      "matchedCount": 245
+    }
+  ],
+  "models": [
+    {
+      "id": "6ad507547d04ca3da4b7545b",
+      "version": "v1.2.0 (Adapted)",
+      "date": "2026-10-16",
+      "accuracy": 99.4,
+      "precision": 99.2,
+      "recall": 99,
+      "f1": 99.1,
+      "adaptations": [
+        "SQL Injection Base",
+        "SYN Flood Base",
+        "Port Scan Base",
+        "Zero-Day Alpha Adapted"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "6ad507547d04ca3da4b7545a",
+      "version": "v1.0.0 (Base)",
+      "date": "2026-09-01",
+      "accuracy": 94.2,
+      "precision": 93.8,
+      "recall": 94.1,
+      "f1": 93.9,
+      "adaptations": [
+        "SQL Injection Base",
+        "SYN Flood Base",
+        "Port Scan Base"
+      ],
+      "status": "Standby"
+    }
+  ],
+  "aiAnalyses": [
+    {
+      "id": "ai-rep-offline-1792475845242",
+      "refId": "pkt-live-1792475843019-934",
+      "refType": "packet",
+      "timestamp": "2026-10-20T05:57:25.242Z",
+      "summary": "A highly critical packet flow was evaluated by AEGIS engines.",
+      "classification": "Zero-Day Remote Code Execution / Severe Severity",
+      "evidence": "Target string includes serialized object deserialization headers.",
+      "behavior": "Exploiting custom object deserialization mechanisms to escape container execution sandbox.",
+      "explanation": "Identified via meta-learning non-linear cluster outlier distances.",
+      "risk": "Highest probability of host compromise and local network enumeration.",
+      "actions": [
+        "Isolate target Virtual Machine immediately",
+        "Verify custom serializations firewall limits",
+        "Deploy specific rule filters"
+      ],
+      "ruleRecommendation": "alert http any any -> 10.0.1.15 8080 (msg:'Deserialization attempt'; content:'RCE-In-Memory'; sid:2001004;)",
+      "metaLearningRecommendation": "Configure meta-learning MLOps support shots adapt parameters (recommend shots=5, LR=0.001) targeting target anomalous vector."
+    },
+    {
+      "id": "ai-rep-offline-1792475843010",
+      "refId": "pkt-live-1792475836590-15",
+      "refType": "packet",
+      "timestamp": "2026-10-20T05:57:23.010Z",
+      "summary": "A highly critical packet flow was evaluated by AEGIS engines.",
+      "classification": "Zero-Day Remote Code Execution / Severe Severity",
+      "evidence": "Target string includes serialized object deserialization headers.",
+      "behavior": "Exploiting custom object deserialization mechanisms to escape container execution sandbox.",
+      "explanation": "Identified via meta-learning non-linear cluster outlier distances.",
+      "risk": "Highest probability of host compromise and local network enumeration.",
+      "actions": [
+        "Isolate target Virtual Machine immediately",
+        "Verify custom serializations firewall limits",
+        "Deploy specific rule filters"
+      ],
+      "ruleRecommendation": "alert http any any -> 10.0.1.15 8080 (msg:'Deserialization attempt'; content:'RCE-In-Memory'; sid:2001004;)",
+      "metaLearningRecommendation": "Configure meta-learning MLOps support shots adapt parameters (recommend shots=5, LR=0.001) targeting target anomalous vector."
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1792476817879-440",
+      "user": "admin@aegis.io",
+      "action": "User Login",
+      "resource": "User Account",
+      "timestamp": "2026-10-20T06:13:37.879Z",
+      "ip": "::1",
+      "result": "Success"
+    },
+    {
+      "id": "log-1792475845238-407",
+      "user": "admin@aegis.io",
+      "action": "Run AI Security Analysis on pkt-live-1792475843019-934",
+      "resource": "Gemini Integration",
+      "timestamp": "2026-10-20T05:57:25.238Z",
+      "ip": "::1",
+      "result": "Success"
+    },
+    {
+      "id": "log-1792475843007-805",
+      "user": "admin@aegis.io",
+      "action": "Run AI Security Analysis on pkt-live-1792475836590-15",
+      "resource": "Gemini Integration",
+      "timestamp": "2026-10-20T05:57:23.007Z",
+      "ip": "::1",
+      "result": "Success"
+    },
+    {
+      "id": "log-1792475836563-11",
+      "user": "admin@aegis.io",
+      "action": "Initiate Few-Shot Adaptation for Zero-Day Alpha",
+      "resource": "Meta-Learning Engine",
+      "timestamp": "2026-10-20T05:57:16.563Z",
+      "ip": "::1",
+      "result": "Success"
+    },
+    {
+      "id": "log-1792475793193-995",
+      "user": "admin@aegis.io",
+      "action": "User Login",
+      "resource": "User Account",
+      "timestamp": "2026-10-20T05:56:33.193Z",
+      "ip": "::1",
+      "result": "Success"
+    }
+  ],
+  "settings": {
+    "appName": "AEGIS ML IDS",
+    "timezone": "UTC",
+    "refreshInterval": 1000,
+    "packetRate": 6,
+    "retention": 500,
+    "confidenceThreshold": 75,
+    "alertThreshold": 70,
+    "autoBlocking": true,
+    "learningRate": 0.001,
+    "supportShots": 5,
+    "adaptationSteps": 100,
+    "optimizer": "AdamW",
+    "enableAI": true,
+    "notifications": {
+      "criticalAlerts": true,
+      "zeroDayAlerts": true,
+      "modelAdaptationAlerts": true
+    }
+  }
+}
